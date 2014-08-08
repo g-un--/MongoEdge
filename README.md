@@ -1,6 +1,6 @@
 MongoEdge
 =========
-#### .Net wrapper for nodejs MongoDB driver using EdgeJs
+#### .Net wrapper for Node.js MongoDB driver using EdgeJs
 
     class Program
     {
