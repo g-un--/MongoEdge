@@ -1,6 +1,6 @@
 MongoEdge
 =========
-
+<code>
 class Program
     {
         static void Main(string[] args)
@@ -83,3 +83,4 @@ class Program
             await db.close(new { });
         }
     }
+</code>
