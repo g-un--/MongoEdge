@@ -1,11 +1,12 @@
 MongoEdge
 =========
-<code>
-class Program
+
+    class Program
     {
         static void Main(string[] args)
         {
             var connectToMongo = Edge.Func(@"
+            
                 var MongoClient = require('mongodb').MongoClient;
                 
                 return function(databaseName, task) {
@@ -83,4 +84,3 @@ class Program
             await db.close(new { });
         }
     }
-</code>
